@@ -1,32 +1,32 @@
-void main(List <String> args){
-  //switch
-  int dia = 2,
+void main(List<String> args) {
+  // Switch
+  int dia = 12;
   String hoy = "";
 
-  switch(dia){
-      case 1:
-        hoy = "Domingo";
+  switch (dia) {
+    case 1:
+      hoy = "Domingo";
       break;
-      case 2:
-        hoy = "Lunes"
+    case 2:
+      hoy = "Lunes";
       break;
-      case 3:
-        hoy = "Martes";
+    case 3:
+      hoy = "Martes";
       break;
-      case 4:
-        hoy = "Miercoles"
+    case 4:
+      hoy = "Miércoles";
       break;
-      case 5:
-        hoy = "Jueves";
+    case 5:
+      hoy = "Jueves";
       break;
-      case 6:
-        hoy = "Viernes"
+    case 6:
+      hoy = "Viernes";
       break;
-      case 7:
-        hoy = "Sábado";
+    case 7:
+      hoy = "Sábado";
       break;
-      default:
-        hoy = "NO";
+    default:
+      hoy = "NO";
   }
   print(hoy);
 }
