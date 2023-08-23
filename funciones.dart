@@ -1,7 +1,7 @@
 void main(List<String> args) {
   mostrarMensaje();
   print(suma(5, 2));
-  print(multiplicacion(5, 10));
+  multiplicacion(9);
 }
 
 //Funciones sin retorno
@@ -19,6 +19,8 @@ int suma(int n1, int n2) {
 }
 
 //Funcion que multiplique cualquier numero
-double multiplicacion(double n1, double n2) {
-  return n1 * n2;
+void multiplicacion(int n1) {
+  for (var i = 0; i < 13; i++) {
+    print("$n1 * $i = ${n1 * i} ");
+  }
 }
